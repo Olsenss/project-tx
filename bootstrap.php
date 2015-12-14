@@ -10,7 +10,10 @@ $config = Setup::createAnnotationMetadataConfiguration(array(__DIR__."/src"), $i
 
 $conn = array(
     'driver' => 'pdo_mysql',
-    'path' => __DIR__.'/connection.php',
+    'user' => 'root',
+    'password' => 'root',
+    'dbname' => 'blog',
+    //'path' => __DIR__.'/config/connection.php',
 );
 
 
